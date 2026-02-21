@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nisarga H.R. | Software Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .navbar {
+            background: rgba(0,0,0,0.8);
+        }
+
+        .navbar a {
+            color: white !important;
+            font-weight: 500;
+        }
+
+        .hero {
+            height: 100vh;
+            background: linear-gradient(to right, #0d6efd, #6610f2);
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .skill-progress {
+            margin-bottom: 20px;
+        }
+
+        .project-card {
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background: #212529;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-white" href="#">Nisarga H.R.</a>
+
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <h1>Hello, I'm Nisarga H.R.</h1>
+        <p class="lead">BCA Student | Aspiring Software Engineer | Python & Web Developer</p>
+        <a href="#projects" class="btn btn-light m-2">View Projects</a>
+        <a href="#contact" class="btn btn-outline-light m-2">Hire Me</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container text-center">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I am a passionate BCA student aiming to become a software engineer.
+            I am continuously improving my programming skills in Python, Java,
+            and Web Development. I enjoy building responsive websites and solving real-world problems.
+        </p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="bg-light">
+    <div class="container">
+        <h2 class="section-title text-center">Technical Skills</h2>
+
+        <div class="skill-progress">
+            <label>HTML</label>
+            <div class="progress">
+                <div class="progress-bar bg-primary" style="width: 90%">90%</div>
+            </div>
+        </div>
+
+        <div class="skill-progress">
+            <label>CSS</label>
+            <div class="progress">
+                <div class="progress-bar bg-success" style="width: 85%">85%</div>
+            </div>
+        </div>
+
+        <div class="skill-progress">
+            <label>Bootstrap</label>
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width: 80%">80%</div>
+            </div>
+        </div>
+
+        <div class="skill-progress">
+            <label>Python</label>
+            <div class="progress">
+                <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+            </div>
+        </div>
+
+        <div class="skill-progress">
+            <label>Java</label>
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="width: 70%">70%</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title text-center">Projects</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Responsive Portfolio</h5>
+                        <p class="card-text">Built using HTML, CSS, and Bootstrap with full responsiveness.</p>
+                        <a href="#" class="btn btn-primary btn-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Mini Project</h5>
+                        <p class="card-text">Logic-based project demonstrating programming fundamentals.</p>
+                        <a href="#" class="btn btn-primary btn-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Application</h5>
+                        <p class="card-text">Beginner-level web app with clean UI and functionality.</p>
+                        <a href="#" class="btn btn-primary btn-sm">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light">
+    <div class="container text-center">
+        <h2 class="section-title">Contact Me</h2>
+        <p>Email: nisarga@example.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+
+        <div class="social-icons">
+            <a href="#"><i class="bi bi-github"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-envelope"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Nisarga H.R. | Designed with ❤️</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
